@@ -5,13 +5,22 @@ build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
+<<<<<<< HEAD
 .idea
+=======
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+>>>>>>> 61b50e9ce4beacb646ad63c1259ee81cd9b15746
 *.iws
 *.iml
 *.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/vcs.xml
 
 ### Eclipse ###
 .apt_generated
