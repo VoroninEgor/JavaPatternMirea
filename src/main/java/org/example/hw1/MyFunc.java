@@ -20,6 +20,7 @@ public class MyFunc implements Function<List<Student>, Map<String,List<Student>>
         studentList.add(new Student("B"));
         studentList.add(new Student("B"));
         studentList.add(new Student("C"));
+        System.out.println(25678);
         studentList.add(new Student("A"));
 
         MyFunc myFunc = new MyFunc();
