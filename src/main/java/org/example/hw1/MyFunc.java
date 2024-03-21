@@ -18,18 +18,7 @@ public class MyFunc implements Function<List<Student>, Map<String,List<Student>>
         List<Student> studentList = new ArrayList<>();
         studentList.add(new Student("A"));
         studentList.add(new Student("A"));
-        studentList.add(new Student("A"));
-        studentList.add(new Student("B"));
-        studentList.add(new Student("B"));
-        studentList.add(new Student("B"));
-        studentList.add(new Student("B"));
-        studentList.add(new Student("B"));
-        studentList.add(new Student("B"));
-        studentList.add(new Student("B"));
-        studentList.add(new Student("C"));
-        studentList.add(new Student("C"));
-        studentList.add(new Student("C"));
-        studentList.add(new Student("A"));
+
 
         MyFunc myFunc = new MyFunc();
 
